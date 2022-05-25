@@ -1,3 +1,7 @@
-export {default as Buttons} from './buttons/Buttons'
-export {default as Card} from './card/Card'
-export {default as Errors} from './errors/Errors'
+import {PrimaryLink} from './buttons/Buttons'
+import Card from './card/Card'
+import Errors from './errors/Errors'
+import ProfileCard from './profileCard/ProfileCard'
+
+
+export {Errors, ProfileCard, PrimaryLink, Card}

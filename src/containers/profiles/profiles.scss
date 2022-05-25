@@ -1,0 +1,16 @@
+.profiles-section {
+    padding: 3rem 0;
+
+    .container {
+        width: 95%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+
+    .profiles {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 1rem;
+    }
+}

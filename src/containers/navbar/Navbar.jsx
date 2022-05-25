@@ -4,7 +4,7 @@ import {FaCodeBranch} from 'react-icons/fa'
 
 const Navbar = () => {
   return (
-    <nav class="navbar">
+    <nav className="navbar">
       <div className="container">
         {/* logo */}
         <h1>
@@ -18,15 +18,15 @@ const Navbar = () => {
           
           <li>
             <a href="dashboard.html" title="Dashboard" className='nav-link'
-              ><i class="fas fa-user"></i>
-              <span class="hide-sm">Dashboard</span></a
+              >
+              <span className="hide-sm">Dashboard</span></a
             >
           </li>
 
           <li>
             <a href="login.html" title="Logout" className='nav-link'>
-              <i class="fas fa-sign-out-alt"></i>
-              <span class="hide-sm">Logout</span></a
+              
+              <span className="hide-sm">Logout</span></a
             >
           </li>
         </ul>
