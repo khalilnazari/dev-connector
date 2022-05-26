@@ -1,11 +1,12 @@
 
 import './App.scss';
-import {Navbar, Profiles} from './containers'
+import {Navbar, Profile} from './containers'
 function App() {
   return (
     <>
       <Navbar />
       <Profiles /> 
+      <Profile />
     </>
   );
 }

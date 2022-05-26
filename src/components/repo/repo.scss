@@ -1,0 +1,29 @@
+.git-repos {
+    margin-bottom: 1.5rem;
+    .repo {
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+        border: 1px solid #dcdcdc;
+        padding: 1rem;
+    }
+    .repo-text {
+        width: 70%;
+        h3 {
+            font-weight: 500;
+            color: green;
+        }
+    }
+    .repo-icon {
+        width: 20%;
+        padding-top: 2rem;
+    }
+
+    .repo-icon > div {
+        background-color: rgb(21, 183, 94);
+        margin-bottom: .3rem;
+        padding: .3rem;
+        text-align: center;
+        color: white;
+    }
+}
