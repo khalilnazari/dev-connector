@@ -1,0 +1,22 @@
+import React from 'react'
+import {Routes, Route} from 'react-router-dom'; 
+import {Dashboard, Developer, Login, Post, Posts, Profile, Profiles, Register} from './containers'
+
+const Routers = () => {
+  return (
+    <Routes>
+      <Route path='/' element={<div>Homepage comming soon</div>}/>
+      <Route path='/dashboard' element={<Dashboard />}/>
+      <Route path='/developer' element={<Developer />}/>
+      <Route path='/login' element={<Login />}/>
+      <Route path='/post' element={<Post />}/>
+      <Route path='/posts' element={<Posts />}/>
+      <Route path='/profile' element={<Profile />}/>
+      <Route path='/profiles' element={<Profiles />}/>
+      <Route path='/register' element={<Register />}/>
+      <Route path='*' element={<div>Not Found</div>}/>
+    </Routes>
+  )
+}
+
+export default Routers

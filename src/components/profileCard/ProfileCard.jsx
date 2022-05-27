@@ -10,7 +10,7 @@ const ProfileCard = ({name}) => {
         <h2>{name}</h2>
         <p>Developer at Microsoft</p>
         <p>Seattle, WA</p>
-        <PrimaryLink url="profile.png" text="view profile" />
+        <PrimaryLink url="/profile" text="view profile" />
     </div>
   )
 }

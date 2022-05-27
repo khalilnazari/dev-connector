@@ -1,12 +1,16 @@
 
 import './App.scss';
-import {Navbar, Profile} from './containers'
+import {Navbar} from './containers'
+import {BrowserRouter as Router} from 'react-router-dom'
+import Routers from './Routers';
 function App() {
   return (
     <>
-      <Navbar />
-      <Profiles /> 
-      <Profile />
+      <Router>
+        <Navbar />
+        <Routers />
+      </Router>
+     
     </>
   );
 }

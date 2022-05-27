@@ -22,7 +22,7 @@ const Porfiles = () => {
 
         <div className="profiles">
         {develoeprs.map(developer => (
-          <ProfileCard name={developer.name}/>
+          <ProfileCard name={developer.name} key={developer.id}/>
         ))}
         </div>
        

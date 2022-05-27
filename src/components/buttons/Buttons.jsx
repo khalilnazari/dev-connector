@@ -1,9 +1,15 @@
 import './buttons.scss'; 
+import {Link} from 'react-router-dom'
 
 const PrimaryLink = ({url, text}) => (
-    <a href={url} className="primary-link">{text}</a>
+    <Link to={url} className="primary-link">{text}</Link>
 )
 
 
-export {PrimaryLink}
+const PrimaryButton = ({bgColor, textColor, text}) => (
+    <button className='primaryBtn' style={{backgroundColor:bgColor, color:textColor}}>{text}</button>
+)
+
+
+export {PrimaryLink, PrimaryButton}
 

@@ -3,20 +3,20 @@ import './profile.scss'
 import { Repo } from '../../components'
 import profileImage from '../../assets/profileImage.png'
 import {IoIosArrowRoundBack} from 'react-icons/io'
-import {IoEarthSharp, IoLogoLinkedin, IoLogoCss3} from 'react-icons/io'
+import {IoLogoLinkedin, IoLogoCss3} from 'react-icons/io'
 import {BsGithub} from 'react-icons/bs'
 import {AiFillFacebook} from 'react-icons/ai'
 import {FaTwitterSquare, FaInstagramSquare} from 'react-icons/fa'
 import {GiEarthAmerica} from 'react-icons/gi'
 import {ImHtmlFive} from 'react-icons/im'
 import {SiJavascript, SiPython} from 'react-icons/si'
-
+import {Link} from 'react-router-dom'
 
 const Profile = () => {
   return (
     <section className='profile-section'>
       <div className="container">
-        <a href="/profiles" className='back-link'><IoIosArrowRoundBack className='back-icon'/> Back</a>
+        <Link to="/profiles" className='back-link'><IoIosArrowRoundBack className='back-icon'/> Back</Link>
 
         {/*  background*/}
         <div className='profile-background'>
