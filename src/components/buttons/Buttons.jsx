@@ -10,6 +10,14 @@ const PrimaryButton = ({bgColor, textColor, text}) => (
     <button className='primaryBtn' style={{backgroundColor:bgColor, color:textColor}}>{text}</button>
 )
 
+const IconButton =({bgColor, textColor, icon}) => (
+    <button className='iconButton' style={{backgroundColor:bgColor, color:textColor}}>{icon}</button>
+)
 
-export {PrimaryLink, PrimaryButton}
+
+export {
+    PrimaryLink, 
+    PrimaryButton, 
+    IconButton
+}
 

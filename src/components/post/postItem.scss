@@ -1,0 +1,43 @@
+.posteItem {
+    border: 1px solid lightgray;
+    padding: 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+
+    margin-bottom: 2rem;
+
+    .postItem-avatar {
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        flex-shrink: 0;
+        align-items: center;
+    }
+    .postItem-image {
+        width: 60%;
+    }
+
+
+    .postItem-text {
+        width: 70%;
+    }
+
+
+    .postItem-buttons {
+        margin-top: 1.5rem;
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .author-name {
+        text-decoration: none;
+        color: green;
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+}

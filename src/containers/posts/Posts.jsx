@@ -1,6 +1,7 @@
 import React from 'react'
 import { PrimaryButton } from '../../components/buttons/Buttons';
 import './posts.scss'
+import {PostItem, Textarea} from '../../components'
 
 const Posts = () => {
   
@@ -17,12 +18,17 @@ const Posts = () => {
         <h1 className="page-title">Posts</h1>
         <p className="lead"> Welcome to the community</p>
         <form onSubmit={handleSubmit}>
-          <textarea name="" className='' id="" placeholder='Write there...'></textarea>
+          <Textarea placeholder="Write here ..."/>
           <PrimaryButton type="submit" bgColor='#000' textColor='#eeeeee' text='Submit'/>
-        </form>
+        </form> 
 
-
-        
+        {/* post item */}
+        <div className='post-item'>
+          <PostItem />
+          <PostItem />
+          <PostItem />
+          <PostItem />
+        </div>       
       </div>
     </section>
   )
