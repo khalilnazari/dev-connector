@@ -33,4 +33,23 @@ const PostItem = () => {
   )
 }
 
-export {PostItem}
+
+const PostDetail = () => {
+    return (
+      <div className='posteItem'>
+          <div className="postItem-avatar">
+              <img src={profileImage} className="postItem-image" alt="profileImage"/>
+              <Link to="/profile" className='author-name'>John Smith</Link>
+          </div>
+  
+          <div className='posteItem-text'>
+              <p className='text'>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione dolores officia assumenda dolor maiores sint pariatur quia voluptatibus voluptate perspiciatis commodi possimus nemo aut, voluptas expedita facilis amet hic culpa.
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione dolores officia assumenda dolor maiores sint pariatur quia voluptatibus voluptate perspiciatis commodi possimus nemo aut, voluptas expedita facilis amet hic culpa.
+              </p>
+          </div>
+      </div>
+    )
+  }
+
+export {PostItem, PostDetail}

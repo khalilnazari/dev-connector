@@ -1,8 +1,8 @@
 import React from 'react'
 import './profile.scss'
-import { Repo } from '../../components'
+import { Repo, BackButton } from '../../components'
 import profileImage from '../../assets/profileImage.png'
-import {IoIosArrowRoundBack} from 'react-icons/io'
+
 import {IoLogoLinkedin, IoLogoCss3} from 'react-icons/io'
 import {BsGithub} from 'react-icons/bs'
 import {AiFillFacebook} from 'react-icons/ai'
@@ -10,13 +10,12 @@ import {FaTwitterSquare, FaInstagramSquare} from 'react-icons/fa'
 import {GiEarthAmerica} from 'react-icons/gi'
 import {ImHtmlFive} from 'react-icons/im'
 import {SiJavascript, SiPython} from 'react-icons/si'
-import {Link} from 'react-router-dom'
 
 const Profile = () => {
   return (
     <section className='profile-section'>
       <div className="container">
-        <Link to="/profiles" className='back-link'><IoIosArrowRoundBack className='back-icon'/> Back</Link>
+        <BackButton url="/profiles"/>
 
         {/*  background*/}
         <div className='profile-background'>
@@ -37,8 +36,8 @@ const Profile = () => {
 
 
         {/* about */}
-        <div class="profile-about">
-          <h2 class="text-primary">John's Bio</h2>
+        <div className="profile-about">
+          <h2 className="text-primary">John's Bio</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni,
             distinctio tempora. Obcaecati vero ad similique numquam. Commodi
@@ -53,21 +52,21 @@ const Profile = () => {
             distinctio tempora. Obcaecati vero ad similique numquam. Commodi
             incidunt quia non!
           </p>
-          <div class="line"></div>
-          <h2 class="text-primary">Skill Set</h2>
-          <div class="skills">
-            <div class="skill-item"><ImHtmlFive clsssName="skill-icon" /> HTML</div>
-            <div class="skill-item"><IoLogoCss3 clsssName="skill-icon" /> CSS</div>
-            <div class="skill-item"><SiJavascript clsssName="skill-icon" /> JavaScript</div>
-            <div class="skill-item"><SiPython clsssName="skill-icon" /> Python</div>
+          <div className="line"></div>
+          <h2 className="text-primary">Skill Set</h2>
+          <div className="skills">
+            <div className="skill-item"><ImHtmlFive className="skill-icon" /> HTML</div>
+            <div className="skill-item"><IoLogoCss3 className="skill-icon" /> CSS</div>
+            <div className="skill-item"><SiJavascript className="skill-icon" /> JavaScript</div>
+            <div className="skill-item"><SiPython className="skill-icon" /> Python</div>
           </div>
         </div>
 
 
         {/* edu and services */}
         <div className="edu-exp">
-          <div class="profile-exp bg-white p-2">
-            <h2 class="text-primary">Experiences</h2>
+          <div className="profile-exp bg-white p-2">
+            <h2 className="text-primary">Experiences</h2>
             <div>
               <h3>Microsoft</h3>
               <p>Oct 2011 - Current</p>
@@ -91,8 +90,8 @@ const Profile = () => {
             </div>
           </div>
 
-          <div class="profile-edu bg-white p-2">
-            <h2 class="text-primary">Education</h2>
+          <div className="profile-edu bg-white p-2">
+            <h2 className="text-primary">Education</h2>
             <div>
               <h3>University Of Washington</h3>
               <p>Sep 1993 - June 1999</p>

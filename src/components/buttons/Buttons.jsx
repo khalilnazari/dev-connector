@@ -1,5 +1,6 @@
 import './buttons.scss'; 
 import {Link} from 'react-router-dom'
+import {IoIosArrowRoundBack} from 'react-icons/io'
 
 const PrimaryLink = ({url, text}) => (
     <Link to={url} className="primary-link">{text}</Link>
@@ -15,9 +16,14 @@ const IconButton =({bgColor, textColor, icon}) => (
 )
 
 
+const BackButton = ({url}) => (
+    <Link to={url} className='BackButton'><IoIosArrowRoundBack className='BackButton-icon'/> Back</Link>
+)
+
 export {
     PrimaryLink, 
     PrimaryButton, 
-    IconButton
+    IconButton, 
+    BackButton
 }
 
