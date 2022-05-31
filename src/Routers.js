@@ -1,11 +1,11 @@
 import React from 'react'
 import {Routes, Route} from 'react-router-dom'; 
-import {Dashboard, Developer, Login, Post, Posts, Profile, Profiles, Register} from './containers'
+import {Dashboard, Developer, Home, Login, Post, Posts, Profile, Profiles, Register} from './containers'
 
 const Routers = () => {
   return (
     <Routes>
-      <Route path='/' element={<div>Homepage comming soon</div>}/>
+      <Route path='/' element={<Home />}/>
       <Route path='/dashboard' element={<Dashboard />}/>
       <Route path='/developer' element={<Developer />}/>
       <Route path='/login' element={<Login />}/>

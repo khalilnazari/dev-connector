@@ -7,5 +7,6 @@ import Posts from './posts/Posts'
 import Profile from './profile/Profile'
 import Profiles from './profiles/Porfiles'
 import Register from './register/Register'
+import Home from './home/Home'
 
-export {Dashboard, Developer, Login, Navbar, Post, Posts, Profile, Profiles, Register}
+export {Home, Dashboard, Developer, Login, Navbar, Post, Posts, Profile, Profiles, Register}
