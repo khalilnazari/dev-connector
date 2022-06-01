@@ -1,0 +1,39 @@
+.login-section {
+    padding: 3rem 0;
+    
+    .container {
+        width: 95%;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .lead {
+        text-transform: capitalize;
+    }
+    input {
+        display: block;
+        width: 100%;
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+        border: 1px solid lightgray;
+        border-radius: 0.2rem;
+
+        &:focus {
+            outline: 2px solid #17924f;
+        }
+    }
+
+
+    .login-link {
+        margin-top: 1rem;
+        a {
+            text-decoration: none;
+            color: green;
+            font-weight: bold;
+        }
+    }
+    
+
+    
+}
