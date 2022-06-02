@@ -14,6 +14,8 @@ const Porfiles = () => {
     {id:7, name:'Hazi Ahmad'},
     {id:8, name:'Sami Ahmad'},
   ]
+
+  // jsx
   return (
     <section className='profiles-section'>
       <div className="container">

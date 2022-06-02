@@ -42,7 +42,6 @@ const Register = () => {
     } 
     
     if(!passErr) {
-      
       localStorage.setItem('devc-name', name); 
       localStorage.setItem('devc-email', email); 
       localStorage.setItem('devc-password', password); 
