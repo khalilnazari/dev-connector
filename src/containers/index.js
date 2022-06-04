@@ -1,5 +1,4 @@
 import Dashboard from './dashboard/Dashboard'
-import Developer from './developer/Developer'
 import Login from './login/Login'
 import Navbar from './navbar/Navbar'
 import Post from './post/Post'
@@ -9,4 +8,4 @@ import Profiles from './profiles/Porfiles'
 import Register from './register/Register'
 import Home from './home/Home'
 
-export {Home, Dashboard, Developer, Login, Navbar, Post, Posts, Profile, Profiles, Register}
+export {Home, Dashboard, Login, Navbar, Post, Posts, Profile, Profiles, Register}
